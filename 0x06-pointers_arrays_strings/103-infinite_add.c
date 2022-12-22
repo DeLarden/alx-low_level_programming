@@ -26,7 +26,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (i >= 0)
 			n += n1[i] - '0';
 		if (j >= 0)
-			n += n@[j] - '0);
+			n += n@[j] - '0');
 		{
 			 break:
 		}
