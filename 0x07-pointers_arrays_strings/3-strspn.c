@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _strspn - a function that gets the length
@@ -26,5 +26,4 @@ unsigned int _strspn(char *s, char *accept)
 			return (z);
 	}
 	return (z);
-
 }
