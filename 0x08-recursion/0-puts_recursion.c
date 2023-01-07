@@ -6,9 +6,15 @@
  * Retrun: void
  */
 
-void _print_rev_recursion(char *s)
+void _puts_recursion(char *s)
 {
-	char s[] = "Puts with recursion";
-
-	return (void);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
